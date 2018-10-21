@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="418.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.Controllers.DeleteController">
+    <children>
+        <Label layoutX="39.0" layoutY="76.0" prefHeight="60.0" prefWidth="125.0" text="           Word: " />
+        <TextField fx:id="wordDelete" layoutX="250.0" layoutY="90.0" prefHeight="32.0" prefWidth="322.0" />
+        <Button layoutX="250.0" layoutY="185.0" mnemonicParsing="false" onAction="#deleteWord" prefHeight="32.0" prefWidth="162.0" text="Delete" />
+        <Label fx:id="info" layoutX="209.0" layoutY="339.0" prefWidth="-1.0" text="" textFill="RED" />
+      <Label layoutX="39.0" layoutY="14.0" prefHeight="60.0" prefWidth="586.0" text="Delete  Word: " textAlignment="CENTER" textFill="#ee1c1c">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

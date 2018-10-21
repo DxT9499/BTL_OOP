@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="center" center="$null" prefHeight="319.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+    <top>
+        <BorderPane prefHeight="48.0" prefWidth="497.0">
+            <bottom>
+                <MenuBar style="-fx-background-color: yellow; -fx-border-color: red;">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="Tools">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#changeToSearch" text="Search" />
+                                <MenuItem mnemonicParsing="false" onAction="#changeToGoogleTrans" text="Google Translate" />
+                                <MenuItem mnemonicParsing="false" onAction="#changeToOxford" text="Oxford dictionary" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Fix">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#changeToWordAdd" text="Add" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="More">
+                            <items>
+                                <MenuItem mnemonicParsing=" false" onAction="#changeToAbout" text="About" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </bottom>
+            <left>
+                <Label prefHeight="52.0" prefWidth="497.0" style="-fx-text-fill: yellow; -fx-padding: 5 5 5 5; -fx-background-color: blue; -fx-border-color: black;" text="Dictionary App Search">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+            </left>
+        </BorderPane>
+    </top>
+</BorderPane>

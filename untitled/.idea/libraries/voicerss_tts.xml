@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="voicerss_tts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/sample/library/voicerss_tts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/sample/library/sqlite-jdbc-3.23.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

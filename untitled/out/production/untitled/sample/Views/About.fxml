@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="231.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.AboutController">
+    <center>
+        <TextArea fx:id="info" editable="false" prefHeight="111.0"
+                  prefWidth="207.0" wrapText="true"  />
+    </center>
+</BorderPane>
+
